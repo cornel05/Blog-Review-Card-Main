@@ -29,12 +29,16 @@ p {
     max-width: 400px;
     max-height: 600px;
     border-radius: 1rem;
-    box-shadow: 10px 10px var(--Black);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+.card:hover {
+    margin-top: -2rem;
+    margin-left: -2rem;
+    box-shadow: 10px 10px var(--Black);
 }
 #uppericon {
     border-radius: 1rem;
@@ -61,11 +65,23 @@ a:hover {
 }
 #description {
     margin-bottom: 1rem;
+    transition: margin 0.3s ease-in-out;
 }
 .ava-name {
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+.ava-name, .status, #uppericon, a, #pl-date {
+    transition: margin 0.3s ease-in-out;
+}
+.ava-name:hover, #uppericon:hover, a:hover, #pl-date:hover, #description:hover {
+    margin-top: -0.5rem;
+    margin-left: -0.5rem;
+}
+.status:hover {
+    margin-top: -1px;
+    margin-left: -1px;
 }
 #lowericon {
     width: 20%;
