@@ -34,6 +34,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    transition: margin 0.5s ease-in-out;
 }
 .card:hover {
     margin-top: -2rem;
@@ -75,13 +76,12 @@ a:hover {
 .ava-name, .status, #uppericon, a, #pl-date {
     transition: margin 0.3s ease-in-out;
 }
-.ava-name:hover, #uppericon:hover, a:hover, #pl-date:hover, #description:hover {
+.ava-name:hover, #uppericon:hover, a:hover, #description:hover {
     margin-top: -0.5rem;
     margin-left: -0.5rem;
 }
-.status:hover {
-    margin-top: -1px;
-    margin-left: -1px;
+.status:hover, #pl-date:hover {
+    margin-left: 2rem;
 }
 #lowericon {
     width: 20%;
