@@ -78,7 +78,7 @@ a:hover {
 }
 .ava-name:hover, #uppericon:hover, a:hover, #description:hover {
     margin-top: -0.5rem;
-    margin-left: -0.5rem;
+    margin-left: -0.6rem;
 }
 .status:hover, #pl-date:hover {
     margin-left: 2rem;
